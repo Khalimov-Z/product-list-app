@@ -83,12 +83,11 @@ function App(props) {
     const handleAdd =(id)=>{
         setDatabase(
             database.map((item)=>{
-            if(item.bought===false)
             if(id===item.id)
             {
                 return {
                     ...item,
-                    bought: true
+                    bought: !item.bought
                 }
             }
             return item;

@@ -360,6 +360,7 @@ template {
 
 .checkout {
     position: relative;
+    margin-left: 260px;
 }
 
 .checkout .counter {
@@ -402,7 +403,7 @@ template {
 }
 
 .menu > ul li a {
-    color: black;
+    color: blue;
     text-transform: uppercase;
     text-decoration: none;
     font-size: small;
@@ -419,8 +420,11 @@ template {
     justify-content: space-between;
     align-items: center;
     padding: 15px 5px;
-
     margin: 0 -15px 15px;
+    position: fixed;
+    z-index: 11111;
+    background-color: #c9d8fbe6;
+
 }
 
 .header > * {
@@ -431,6 +435,8 @@ template {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 50px;
+    position: absolute;
 }
 
 .card {
@@ -491,8 +497,12 @@ button.btn {
     font-size: 1.5em;
 }
 .btn-2{
-    color: black;
+    color: blue;
     text-transform: uppercase;
     text-decoration: none;
     font-size: small;
+}
+.text-btn{
+    color: crimson;
+    font-weight: bolder;
 }
